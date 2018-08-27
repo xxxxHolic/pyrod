@@ -16,15 +16,15 @@ Perpare intial fitting model for phase recovery algorithm
 
 Directory structure
 ------------
-- 00L.xlsx         example CTR data: 00L rod of LaNiO3 (12 u.c.) / SrTiO3
-- parameters.xlsx  parameters setting example
-- exceptions	     exceptions list of api
-- junction         connect XRR and CTR fitting results, generate final result
-- data (dir)       optimised XRR, CTR and connection data. Serialized by pickle
-- base (dir)       data base of atomic mass, atomic scattering factor and atomic form factor
-- read (dir)       initialize parameters and raw data. (parameters_xxxx.xlsx and xxL_xxxxx.xlsx)
-- tool (dir)	     variables control methods and built-in algorithm
-- apply (dir)      api of XRR and CTR fitting
+- 00L.xlsx:         example CTR data: 00L rod of LaNiO3 (12 u.c.) / SrTiO3
+- parameters.xlsx:  parameters setting example
+- exceptions:	    exceptions list of api
+- junction:         connect XRR and CTR fitting results, generate final result
+- data (dir):       optimised XRR, CTR and connection data. Serialized by pickle
+- base (dir):       data base of atomic mass, atomic scattering factor and atomic form factor
+- read (dir):       initialize parameters and raw data. (parameters_xxxx.xlsx and xxL_xxxxx.xlsx)
+- tool (dir):	    variables control methods and built-in algorithm
+- apply (dir):      api of XRR and CTR fitting
 
 Feedback
 --------
